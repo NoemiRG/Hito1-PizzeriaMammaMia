@@ -10,7 +10,7 @@ function Register(){
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if (password=='' && email==''){
+        if (password=='' || email==''){
             alert("Debe ingresar un correo y una contraseña")
         }else if (password.length<6 && password2.length<6){
             alert("Debe ingresar una contraseña de al menos 6 caracteres")

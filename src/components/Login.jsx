@@ -10,7 +10,7 @@ function Login(){
         e.preventDefault()
 
         
-        if (password=='' && email==''){
+        if (password=='' || email==''){
             alert("Debe ingresar un correo y una contraseña")
         }else if (password.length<6){
             alert("Debe ingresar una contraseña de al menos 6 caracteres")
