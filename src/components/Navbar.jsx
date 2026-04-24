@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navbar() {
 
     const total = 25000;
-    const token = true;
+    const token = false;
     return (
         <RBNavbar expand="lg" className="bg-black" variant="dark">
             <Container>
